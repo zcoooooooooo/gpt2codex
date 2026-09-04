@@ -1,0 +1,32 @@
+{
+  "name": "gpt2codex",
+  "version": "0.1.0+codex.20260904075923",
+  "description": "Read a local project in ChatGPT and hand implementation work to Codex desktop.",
+  "author": {
+    "name": "zcoooooooooo"
+  },
+  "keywords": [
+    "chatgpt",
+    "codex",
+    "local-files",
+    "handoff"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "gpt2codex",
+    "shortDescription": "Read locally, then hand work to Codex desktop.",
+    "longDescription": "gpt2codex lets ChatGPT inspect a bound local project, prepare a focused implementation brief, and create or continue a matching task in Codex desktop. ChatGPT only reads project files; Codex performs edits and verification.",
+    "developerName": "zcoooooooooo",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "\u8bfb\u53d6\u6211\u7684\u672c\u5730\u9879\u76ee\uff0c\u5236\u5b9a\u65b9\u6848\u5e76\u4ea4\u7ed9 Codex \u684c\u9762\u7aef\u6267\u884c",
+      "\u7ee7\u7eed\u628a\u8fd9\u4e2a\u9700\u6c42\u4ea4\u7ed9\u5df2\u7ed1\u5b9a\u7684 Codex \u4efb\u52a1"
+    ]
+  }
+}

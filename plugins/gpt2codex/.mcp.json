@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gpt2codex": {
+      "title": "gpt2codex",
+      "description": "Read a bound local workspace and persist its Codex desktop task binding.",
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "./mcp/server.mjs"
+      ]
+    }
+  }
+}
